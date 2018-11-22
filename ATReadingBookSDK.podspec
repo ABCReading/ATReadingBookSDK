@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ATReadingBookSDK/Classes/**/*'
+  s.source_files = 'ATReadingBookSDK/Classes/**/*.framework'
   
   # s.resource_bundles = {
   #   'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*.png']
