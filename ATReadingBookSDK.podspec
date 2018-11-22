@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.2.1'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,15 +30,25 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ATReadingBookSDK/Classes/**/*.framework'
-  
+    #支持最小系统版本
+    s.platform     = :ios, '7.0'
+
+    #需要包含的源文件
+    s.source_files = 'ATReadingBookSDK/Classes/ABCtimeReadingBookSDK.framework/Headers/*.{h}'
+
+    #你的SDK路径
+    s.vendored_frameworks = 'ATReadingBookSDK/Classes/ABCtimeReadingBookSDK.framework'
+
+    #SDK头文件路径
+    s.public_header_files = 'ATReadingBookSDK/Classes/ABCtimeReadingBookSDK.framework/Headers/ABCtimeReadingBookSDK.h'
+
+
   # s.resource_bundles = {
   #   'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'SSZipArchive', '~> 2.1.1'
    s.dependency 'JSONModel', '~> 1.7.0'
    s.dependency 'lottie-ios', '~> 2.5.0'
