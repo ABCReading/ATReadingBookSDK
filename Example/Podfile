@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ATReadingBookSDK_Example' do
+  pod 'ATReadingBookSDK', :path => '../'
+
+  target 'ATReadingBookSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
