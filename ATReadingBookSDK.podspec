@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -43,11 +43,10 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
     s.public_header_files = 'ATReadingBookSDK/Classes/ABCtimeReadingBookSDK.framework/Headers/ABCtimeReadingBookSDK.h'
 
 
-  # s.resource_bundles = {
-  #   'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*..bundle']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SSZipArchive', '~> 2.1.1'
    s.dependency 'JSONModel', '~> 1.7.0'

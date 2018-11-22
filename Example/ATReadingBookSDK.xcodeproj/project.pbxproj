@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Spaino;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9UBCZYG45F;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = 2571F498F75D0F1C1A65A284 /* Pods-ATReadingBookSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UBCZYG45F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";
 				INFOPLIST_FILE = "ATReadingBookSDK/ATReadingBookSDK-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = 879176310EA70C899CFA29A4 /* Pods-ATReadingBookSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UBCZYG45F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";
 				INFOPLIST_FILE = "ATReadingBookSDK/ATReadingBookSDK-Info.plist";
