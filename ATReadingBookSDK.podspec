@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ATReadingBookSDK.'
+  s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
                        DESC
 
-  s.homepage         = 'https://github.com/Spaino/ATReadingBookSDK'
+  s.homepage         = 'https://gitee.com/CaptainSpaino/ATReadingBookSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Spaino' => 'captain_spaino@163.com' }
-  s.source           = { :git => 'https://github.com/Spaino/ATReadingBookSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/CaptainSpaino/ATReadingBookSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,12 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SSZipArchive', '~> 2.1.1'
+   s.dependency 'JSONModel', '~> 1.7.0'
+   s.dependency 'lottie-ios', '~> 2.5.0'
+   s.dependency 'SDWebImage', '~> 4.0'
+   s.dependency 'YYText', '~> 1.0.7'
+   s.dependency 'Objective-LevelDB', '~> 2.1.5'
+   s.dependency 'FLEX', '~> 2.4.0'
 end

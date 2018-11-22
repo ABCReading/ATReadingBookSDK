@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C9CC3A2031226FF3CAF8324 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7E9299BD17681A36F6803E3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C9CC3A2031226FF3CAF8324 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E9299BD17681A36F6803E3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879176310EA70C899CFA29A4 /* Pods-ATReadingBookSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Example/Pods-ATReadingBookSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA1D3BE5E32B2EB86FB5AFFF /* Pods_ATReadingBookSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATReadingBookSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F972529A6760E3C8E4D86F21 /* ATReadingBookSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ATReadingBookSDK.podspec; path = ../ATReadingBookSDK.podspec; sourceTree = "<group>"; };
+		F972529A6760E3C8E4D86F21 /* ATReadingBookSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATReadingBookSDK.podspec; path = ../ATReadingBookSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1F07818B82DA891A2AD9D544 /* Pods-ATReadingBookSDK_Tests.debug.xcconfig */,
 				0544100F8EC03F64337BF77C /* Pods-ATReadingBookSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

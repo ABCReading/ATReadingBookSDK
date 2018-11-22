@@ -1,0 +1,16 @@
+PODS:
+  - ATReadingBookSDK (0.1.0)
+
+DEPENDENCIES:
+  - ATReadingBookSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ATReadingBookSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATReadingBookSDK: 9b77e583a7e07bb5524991cd1ce78a1f69cabff3
+
+PODFILE CHECKSUM: 32d6248b57e5c654c327e4c506290aede0291c8a
+
+COCOAPODS: 1.6.0.beta.2
