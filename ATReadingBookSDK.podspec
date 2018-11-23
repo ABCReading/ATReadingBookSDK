@@ -44,7 +44,7 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
 
 
    s.resource_bundles = {
-     'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*..bundle']
+     'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*.bundle']
    }
 
   # s.frameworks = 'UIKit', 'MapKit'
