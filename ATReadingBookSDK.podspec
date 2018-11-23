@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,6 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
 
     #需要包含的源文件
     s.source_files = 'ATReadingBookSDK/Classes/*.framework/Headers/*.{h}'
-    s.source_files = 'ATReadingBookSDK/Classes/**/*'
 
     #你的SDK路径
     s.vendored_frameworks = 'ATReadingBookSDK/Classes/*.framework'
@@ -56,5 +55,5 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
    s.dependency 'YYText', '~> 1.0.7'
    s.dependency 'Objective-LevelDB', '~> 2.1.5'
    s.dependency 'FLEX', '~> 2.4.0'
-   s.dependency 'TALVoiceEvalSDK', '~> 2.3.4'
+
 end
