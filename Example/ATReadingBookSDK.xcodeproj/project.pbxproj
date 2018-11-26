@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D6194B21AC1C2900D53A2C /* ATVoiceEvalManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D6194A21AC1C2900D53A2C /* ATVoiceEvalManager.framework */; };
 		31F771C421AB918D00172BE9 /* TestHostPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771C021AB918D00172BE9 /* TestHostPaymentViewController.m */; };
 		31F771C521AB918D00172BE9 /* TestPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771C321AB918D00172BE9 /* TestPaymentView.m */; };
 		31F771C821AB919700172BE9 /* ATTestInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771C621AB919700172BE9 /* ATTestInstance.m */; };
-		31F771CE21AB927100172BE9 /* ATVoiceEvalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771CA21AB927100172BE9 /* ATVoiceEvalManager.m */; };
-		31F771CF21AB927100172BE9 /* TALVoiceEvalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F771CB21AB927100172BE9 /* TALVoiceEvalSDK.framework */; };
-		31F771D021AB927100172BE9 /* SingSound.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 31F771CC21AB927100172BE9 /* SingSound.Bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -47,16 +45,13 @@
 		070FF38D0E8859C98EBE9441 /* Pods_ATReadingBookSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATReadingBookSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F07818B82DA891A2AD9D544 /* Pods-ATReadingBookSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Tests/Pods-ATReadingBookSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2571F498F75D0F1C1A65A284 /* Pods-ATReadingBookSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Example/Pods-ATReadingBookSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31D6194A21AC1C2900D53A2C /* ATVoiceEvalManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATVoiceEvalManager.framework; sourceTree = "<group>"; };
 		31F771C021AB918D00172BE9 /* TestHostPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHostPaymentViewController.m; sourceTree = "<group>"; };
 		31F771C121AB918D00172BE9 /* TestHostPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHostPaymentViewController.h; sourceTree = "<group>"; };
 		31F771C221AB918D00172BE9 /* TestPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaymentView.h; sourceTree = "<group>"; };
 		31F771C321AB918D00172BE9 /* TestPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaymentView.m; sourceTree = "<group>"; };
 		31F771C621AB919700172BE9 /* ATTestInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTestInstance.m; sourceTree = "<group>"; };
 		31F771C721AB919700172BE9 /* ATTestInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTestInstance.h; sourceTree = "<group>"; };
-		31F771CA21AB927100172BE9 /* ATVoiceEvalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVoiceEvalManager.m; sourceTree = "<group>"; };
-		31F771CB21AB927100172BE9 /* TALVoiceEvalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TALVoiceEvalSDK.framework; sourceTree = "<group>"; };
-		31F771CC21AB927100172BE9 /* SingSound.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SingSound.Bundle; sourceTree = "<group>"; };
-		31F771CD21AB927100172BE9 /* ATVoiceEvalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVoiceEvalManager.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATReadingBookSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATReadingBookSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,8 +87,8 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				31F771CF21AB927100172BE9 /* TALVoiceEvalSDK.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				31D6194B21AC1C2900D53A2C /* ATVoiceEvalManager.framework in Frameworks */,
 				F5F978BBB40DFD80B26AB09C /* Pods_ATReadingBookSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,17 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31F771C921AB927100172BE9 /* VoiceEvalSDK */ = {
-			isa = PBXGroup;
-			children = (
-				31F771CA21AB927100172BE9 /* ATVoiceEvalManager.m */,
-				31F771CB21AB927100172BE9 /* TALVoiceEvalSDK.framework */,
-				31F771CC21AB927100172BE9 /* SingSound.Bundle */,
-				31F771CD21AB927100172BE9 /* ATVoiceEvalManager.h */,
-			);
-			path = VoiceEvalSDK;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +144,7 @@
 		6003F593195388D20070C39A /* Example for ATReadingBookSDK */ = {
 			isa = PBXGroup;
 			children = (
-				31F771C921AB927100172BE9 /* VoiceEvalSDK */,
+				31D6194A21AC1C2900D53A2C /* ATVoiceEvalManager.framework */,
 				6003F59C195388D20070C39A /* ATAppDelegate.h */,
 				6003F59D195388D20070C39A /* ATAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -315,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31F771D021AB927100172BE9 /* SingSound.Bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -445,7 +428,6 @@
 			files = (
 				6003F59E195388D20070C39A /* ATAppDelegate.m in Sources */,
 				31F771C521AB918D00172BE9 /* TestPaymentView.m in Sources */,
-				31F771CE21AB927100172BE9 /* ATVoiceEvalManager.m in Sources */,
 				31F771C421AB918D00172BE9 /* TestHostPaymentViewController.m in Sources */,
 				31F771C821AB919700172BE9 /* ATTestInstance.m in Sources */,
 				6003F5A7195388D20070C39A /* ATViewController.m in Sources */,
@@ -607,6 +589,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK",
+					"$(PROJECT_DIR)/ATReadingBookSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";
@@ -627,6 +610,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK",
+					"$(PROJECT_DIR)/ATReadingBookSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";
