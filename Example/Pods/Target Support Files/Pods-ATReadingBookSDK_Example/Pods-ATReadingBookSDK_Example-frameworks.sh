@@ -153,10 +153,24 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ATReadingBookSDK/ATReadingBookSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Objective-LevelDB/Objective_LevelDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ATReadingBookSDK/ATReadingBookSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Objective-LevelDB/Objective_LevelDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

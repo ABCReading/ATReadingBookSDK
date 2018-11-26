@@ -1,15 +1,52 @@
 PODS:
-  - ATReadingBookSDK (0.1.0)
+  - ATReadingBookSDK (0.2.6):
+    - FLEX (~> 2.4.0)
+    - JSONModel (~> 1.7.0)
+    - lottie-ios (~> 2.5.0)
+    - Objective-LevelDB (~> 2.1.5)
+    - SDWebImage (~> 4.0)
+    - SSZipArchive (~> 2.1.1)
+    - YYText (~> 1.0.7)
+  - FLEX (2.4.0)
+  - JSONModel (1.7.0)
+  - leveldb-library (1.18.3)
+  - lottie-ios (2.5.2)
+  - Objective-LevelDB (2.1.5):
+    - leveldb-library (~> 1.18.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SSZipArchive (2.1.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - ATReadingBookSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLEX
+    - JSONModel
+    - leveldb-library
+    - lottie-ios
+    - Objective-LevelDB
+    - SDWebImage
+    - SSZipArchive
+    - YYText
 
 EXTERNAL SOURCES:
   ATReadingBookSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATReadingBookSDK: 9b77e583a7e07bb5524991cd1ce78a1f69cabff3
+  ATReadingBookSDK: 235ad9d95299013b2032592c825c11c0efe1c322
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  Objective-LevelDB: fa075efd9d0be645aee51847cc3ee70cdadb80ce
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 32d6248b57e5c654c327e4c506290aede0291c8a
 
