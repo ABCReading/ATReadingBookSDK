@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -55,5 +55,6 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
    s.dependency 'YYText', '~> 1.0.7'
    s.dependency 'Objective-LevelDB', '~> 2.1.5'
    s.dependency 'FLEX', '~> 2.4.0'
+   s.dependency 'Qiniu', '~> 7.2.2'
 
 end

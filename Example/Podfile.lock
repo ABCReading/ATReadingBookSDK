@@ -4,15 +4,19 @@ PODS:
     - JSONModel (~> 1.7.0)
     - lottie-ios (~> 2.5.0)
     - Objective-LevelDB (~> 2.1.5)
+    - Qiniu (~> 7.2.2)
     - SDWebImage (~> 4.0)
     - SSZipArchive (~> 2.1.1)
     - YYText (~> 1.0.7)
   - FLEX (2.4.0)
+  - HappyDNS (0.3.14)
   - JSONModel (1.7.0)
   - leveldb-library (1.18.3)
   - lottie-ios (2.5.2)
   - Objective-LevelDB (2.1.5):
     - leveldb-library (~> 1.18.2)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -25,10 +29,12 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FLEX
+    - HappyDNS
     - JSONModel
     - leveldb-library
     - lottie-ios
     - Objective-LevelDB
+    - Qiniu
     - SDWebImage
     - SSZipArchive
     - YYText
@@ -38,12 +44,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATReadingBookSDK: 23f665ac2dab5de0e9ab1fcf13eaf87bef6496c8
+  ATReadingBookSDK: 900b8278363ea10f1786c50fc3c55173c6547010
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   Objective-LevelDB: fa075efd9d0be645aee51847cc3ee70cdadb80ce
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
