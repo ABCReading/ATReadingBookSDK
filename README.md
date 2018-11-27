@@ -4,35 +4,32 @@
 ATReadingBookSDK
 
 #### 软件架构
-软件架构说明
+支持armv7 armv7s arm64架构
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. pod 'ATReadingBookSDK', '~> 0.2.7'
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. **0.2.6版为thin framework **
 
-#### 参与贡献
+   > 只包含ABCtimeReadingBookSDK.framework
+   >
+   > 需要配合TALVoiceEvalSDK.framework+SingSound.Bundle及自定义包装的ATVoiceEvalManager类在宿主工程中使用
+   >
+   > **所属分支:master**
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+2. **0.2.7版为fat framework **
 
+   >  pod install 之后会同时安装ABCtimeReadingBookSDK.framework, ATVoiceEvalManager.framework到宿主工程中
+   >
+   > **所属分支:updateTAL_framework**
 
-#### 码云特技
+3. **ATVoiceEvalManager.framework说明**
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+   > 包含TALVoiceEvalSDK.framework+SingSound.Bundle及自定义包装的ATVoiceEvalManager类的custom framework
+   >
+   > ATVoiceEvalManager.framework仓库链接:https://gitee.com/CaptainSpaino/ATVoiceEvalManager.git
 
