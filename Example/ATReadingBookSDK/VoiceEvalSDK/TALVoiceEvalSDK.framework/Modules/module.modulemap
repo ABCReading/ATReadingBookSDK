@@ -1,6 +1,0 @@
-framework module TALVoiceEvalSDK {
-  umbrella header "TALVoiceEvalSDK.h"
-
-  export *
-  module * { export * }
-}
