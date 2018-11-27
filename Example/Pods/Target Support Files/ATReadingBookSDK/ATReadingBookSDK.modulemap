@@ -1,6 +1,0 @@
-framework module ATReadingBookSDK {
-  umbrella header "ATReadingBookSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
