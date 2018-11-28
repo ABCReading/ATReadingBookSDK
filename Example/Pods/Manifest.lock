@@ -1,5 +1,5 @@
 PODS:
-  - ATReadingBookSDK (0.2.9):
+  - ATReadingBookSDK (0.3.0):
     - FLEX (~> 2.4.0)
     - JSONModel (~> 1.7.0)
     - lottie-ios (~> 2.5.0)
@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATReadingBookSDK: 0aef37ac4ac7556867fa6fb6ca6c037ac7a0e7dc
+  ATReadingBookSDK: c448cfed9ce317fddf0879a1fd1a9831de3dfcd8
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d

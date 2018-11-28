@@ -26,9 +26,38 @@
     [[FLEXManager sharedManager] setNetworkDebuggingEnabled:YES];
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showFlex)];
     gesture.numberOfTapsRequired = 3;
+//    [self test];
     [self.window addGestureRecognizer:gesture];
     return YES;
 }
+
+- (void)test {
+    NSBundle *bundle = [self at_resourceBundleWithClass:self.class bundleName:@"ATReadingBookLottieJSONs"];
+    NSLog(@"%@++++++++++", bundle);
+    NSString *jsonPath = [bundle pathForResource:@"data" ofType:@"json" inDirectory:@"eval_result/enter"];
+    NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
+    NSLog(@"%@++++++++++", jsonPath);
+    NSError *error = nil;
+    NSDictionary *JSONObject = jsonData ? [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error] : nil;
+    if (error || !JSONObject) {
+        NSLog(@"json data error: %@, jsonPath : %@", error, jsonPath);
+    }else{
+        NSLog(@"%@================================", jsonPath);
+    }
+}
+
+
+- (NSBundle *)at_resourceBundleWithClass:(Class) bundleClass
+                              bundleName:(NSString *) bundleName {
+    NSBundle *libraryBundle = [NSBundle bundleForClass:bundleClass];
+    //    NSString *path = [libraryBundle pathForResource:bundleName ofType:@"bundle"];
+    
+    NSString *sourcePath = [libraryBundle pathForResource:@"ATReadingBookSDK" ofType:@"bundle"];
+    NSBundle *sdkBundle = [NSBundle bundleWithPath:sourcePath];
+    NSString *path = [sdkBundle pathForResource:bundleName ofType:@"bundle"];
+    return [NSBundle bundleWithPath:path];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
