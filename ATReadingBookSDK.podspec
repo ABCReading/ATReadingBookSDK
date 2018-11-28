@@ -46,6 +46,14 @@ ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.
    s.resource_bundles = {
      'ATReadingBookSDK' => ['ATReadingBookSDK/Assets/*.bundle']
    }
+   
+   valid_archs = ['arm64',
+                 'x86_64',
+                 'armv7',
+                 'armv7s']
+   s.xcconfig            = {
+       'VALID_ARCHS'          =>  valid_archs.join(' '),
+   }
 
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SSZipArchive', '~> 2.1.1'

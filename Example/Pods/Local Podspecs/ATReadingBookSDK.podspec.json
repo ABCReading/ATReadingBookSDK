@@ -1,6 +1,6 @@
 {
   "name": "ATReadingBookSDK",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "summary": "ATReadingBookSDK.",
   "description": "ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.",
   "homepage": "https://gitee.com/CaptainSpaino/ATReadingBookSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitee.com/CaptainSpaino/ATReadingBookSDK.git",
-    "tag": "0.2.8"
+    "tag": "0.2.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,6 +25,9 @@
     "ATReadingBookSDK": [
       "ATReadingBookSDK/Assets/*.bundle"
     ]
+  },
+  "xcconfig": {
+    "VALID_ARCHS": "arm64 x86_64 armv7 armv7s"
   },
   "dependencies": {
     "SSZipArchive": [
