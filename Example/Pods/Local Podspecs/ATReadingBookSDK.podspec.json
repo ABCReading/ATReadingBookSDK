@@ -1,6 +1,6 @@
 {
   "name": "ATReadingBookSDK",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "summary": "ATReadingBookSDK.",
   "description": "ATReadingBookSDK Copyright (c) 2018 ABC Reading. All rights reserved.",
   "homepage": "https://gitee.com/CaptainSpaino/ATReadingBookSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitee.com/CaptainSpaino/ATReadingBookSDK.git",
-    "tag": "0.3.0"
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "8.0"

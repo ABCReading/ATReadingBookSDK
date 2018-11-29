@@ -8,9 +8,7 @@
 
 #import "ATViewController.h"
 #import <ABCtimeReadingBookSDK/ABCtimeReadingBookSDK.h>
-//#import <ATVoiceEvalManager/ATVoiceEvalManager.h>
-#import <ATVoiceEvalManager/ATVoiceEvalManager.h>
-//#import "ATVoiceEvalManager.h"
+#import "ATVoiceEvalManager.h"
 #import "ATTestInstance.h"
 #import "ATAppDelegate.h"
 #import "TestPaymentView.h"

@@ -1,6 +1,0 @@
-framework module ATVoiceEvalManager {
-  umbrella header "ATVoiceEvalManager.h"
-
-  export *
-  module * { export * }
-}
