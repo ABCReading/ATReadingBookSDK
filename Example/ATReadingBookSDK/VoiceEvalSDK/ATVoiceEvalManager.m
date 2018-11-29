@@ -8,6 +8,7 @@
 
 #import "ATVoiceEvalManager.h"
 #import <AVFoundation/AVFoundation.h>
+#import <TALVoiceEvalSDK/TALVoiceEvalSDK.h>
 
 /** ABCtimeReadingBook_支持趣配音_语音评测
  appKey : @"a342"
@@ -18,6 +19,7 @@ static NSString *const evalSecretKey = @"c11163aa6c834a028da4a4b30955be23";//@"c
 
 // 语音测评管理工具类
 @interface ATVoiceEvalManager() <TALAILabVEEManagerDelegate>
+@property (nonatomic, strong) TALAILabVEEManager *voiceManager;
 @end
 
 @implementation ATVoiceEvalManager

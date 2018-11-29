@@ -115,10 +115,10 @@
 		3140C88621AFDC5200AF388B /* VoiceEvalSDK */ = {
 			isa = PBXGroup;
 			children = (
+				3140C88A21AFDC5200AF388B /* ATVoiceEvalManager.h */,
 				3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */,
 				3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */,
 				3140C88921AFDC5200AF388B /* SingSound.Bundle */,
-				3140C88A21AFDC5200AF388B /* ATVoiceEvalManager.h */,
 			);
 			path = VoiceEvalSDK;
 			sourceTree = "<group>";

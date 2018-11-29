@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TALVoiceEvalSDK/TALVoiceEvalSDK.h>
 
 @interface ATVoiceEvalManager : NSObject
 
-@property (nonatomic, strong) TALAILabVEEManager *voiceManager;
+
 @property (nonatomic, copy) void (^evalResultBlock)(id result, BOOL isSuccess);
 
 //QH_SINGLETON_DEF
