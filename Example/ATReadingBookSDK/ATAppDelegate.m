@@ -17,11 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // 注册ABCtimeReadingBookSDK
-    [ATReadingBookManager registAppID:@"sdk761251283344" appSecret:@"a63623e86db5c31699cef42c36d729d3"];
-    
-    // 设定服务器类型;
-    [ATReadingBookManager setServerType:EATServerTypeProduction];
+//    // 注册ABCtimeReadingBookSDK
+//    [ATReadingBookManager registAppID:@"sdk761251283344" appSecret:@"a63623e86db5c31699cef42c36d729d3"];
+//
+//    // 设定服务器类型;
+//    [ATReadingBookManager setServerType:EATServerTypeProduction];
     
     [[FLEXManager sharedManager] setNetworkDebuggingEnabled:YES];
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showFlex)];

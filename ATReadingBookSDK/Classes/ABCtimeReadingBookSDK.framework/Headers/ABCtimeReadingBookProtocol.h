@@ -11,10 +11,11 @@
 /**
  跟读打分回调block
 
- @param score 跟读得分
+ @param evalResultDic 跟读结果
+                   格式：@{@"score" : 跟读得分, @"audioPath" : 本次录音地址}
  @param success 是否成功
  */
-typedef void(^ATVoiceEvalCompletedBlock)(NSInteger score ,BOOL success);
+typedef void(^ATVoiceEvalCompletedBlock)(NSDictionary *evalResultDic ,BOOL success);
 
 @protocol ABCtimeReadingBookProtocol <NSObject>
 

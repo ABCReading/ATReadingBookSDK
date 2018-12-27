@@ -44,8 +44,9 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
  ABCtimeReadingBookSDK注册;
  @param appID 主App在ABCtime的业务ID;
  @param appSecret 主App在ABCtime对应的秘钥;
+ @param serverType 服务器环境配置;
  */
-+ (void) registAppID:(NSString *) appID appSecret:(NSString *) appSecret;
++ (void) registAppID:(NSString *) appID appSecret:(NSString *) appSecret serverType:(EATServerType) serverType;
 
 /**
  获取所有绘本的level信息
@@ -66,16 +67,10 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
                         delegate:(id<ABCtimeReadingBookProtocol>)delegate;
 
 /**
- 设置服务器环境
- @param serverType 服务器type
- */
-+ (void)setServerType:(EATServerType)serverType;
-
-/**
  获取服务器环境
  @return 服务器环境type
  */
-+ (EATServerType)getServerType;
++ (EATServerType) getServerType;
 
 /**
  宿主App支付页面 >> 调用开通权限接口, <默认每次只能购买一个level有效期1年的服务, 如果重复购买, 后台累加有效期>

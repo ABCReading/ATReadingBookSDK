@@ -31,9 +31,6 @@
                                     <constraint firstAttribute="width" constant="44" id="t5t-4R-qX8"/>
                                 </constraints>
                                 <state key="normal" title="展示"/>
-                                <connections>
-                                    <action selector="show" destination="BYZ-38-t0r" eventType="touchUpInside" id="dRC-nt-xQx"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
