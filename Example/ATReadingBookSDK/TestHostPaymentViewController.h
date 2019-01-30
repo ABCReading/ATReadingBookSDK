@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef void(^kPayBackBlock)(void);
+typedef void(^kPayBackBlock)(BOOL allLevel, NSInteger type);
 @interface TestHostPaymentViewController : UIViewController
 @property(nonatomic, copy) kPayBackBlock backBlock;
 @end

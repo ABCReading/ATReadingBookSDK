@@ -14,6 +14,17 @@ typedef NS_ENUM(NSUInteger, EATServerType) {    // 服务器环境类型;
     EATServerTypeProduction,                    // 正式环境;
 };
 
+typedef NS_ENUM(NSInteger, EATSubTimeType) {
+    EATSubTimeTypeHalfYear = 1,             // 半年
+    EATSubTimeTypeYear = 2,                 // 1年
+    EATSubTimeTypeMonth = 3,                // 1个月
+};
+
+typedef NS_ENUM(NSUInteger, EATInterfaceOrientation) {
+    EATInterfaceOrientationLandscapeLeft = 1,
+    EATInterfaceOrientationLandscapeRight,
+};
+
 // ================================================================================================================ //
 // Block Defines
 /**
@@ -63,6 +74,7 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
  @param delegate 宿主App需要实现的delegate
  */
 - (void)setParentViewController:(__kindof UIViewController *)parentViewController
+              deviceOrientation:(EATInterfaceOrientation)deviceOrientation
                       withUserId:(NSString *) userId
                         delegate:(id<ABCtimeReadingBookProtocol>)delegate;
 
@@ -73,15 +85,17 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
 + (EATServerType) getServerType;
 
 /**
- 宿主App支付页面 >> 调用开通权限接口, <默认每次只能购买一个level有效期1年的服务, 如果重复购买, 后台累加有效期>
+ 宿主App支付页面 >> 调用开通权限接口, <重复购买, 后台累加有效期>
  在支付页面支付完毕后调用
  @param transactionID 订单id
  @param userID 用户id
- @param levelID 开通levelID
+ @param levelID 开通levelID(购买全level的话传@"1000")
+ @param subTimeType 开通类型 半年、一年、一个月
  */
 - (void)paymentSuccessWithTransaction:(NSString *) transactionID
-                                userID:(NSString *) userID
-                               levelID:(NSString *) levelID;
+                               userID:(NSString *) userID
+                              levelID:(NSString *) levelID
+                          subTimeType:(EATSubTimeType) subTimeType;
 
 /**
  取消level绘本的服务;

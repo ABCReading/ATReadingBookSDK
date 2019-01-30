@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger, EATBookLevel) {
+    EATBookLevel_aa = 0,
+    EATBookLevel_A,
+    EATBookLevel_B,
+    EATBookLevel_C,
+    EATBookLevel_D,
+    EATBookLevel_E,
+    EATBookLevel_F,
+    EATBookLevel_G,
+};
+
 /**
  跟读打分回调block
 
@@ -37,4 +48,18 @@ typedef void(^ATVoiceEvalCompletedBlock)(NSDictionary *evalResultDic ,BOOL succe
  取消本次录音(结束本次跟读打分不接受分数)
  */
 - (void)at_cancelRecord;
+
+@optional
+/**
+ 从SDK退出
+ */
+- (void)at_leaveSDK;
+
+/**
+ 获取书架不同level的背景图片
+
+ @param bookLevel 绘本等级枚举 aa ~ G
+ @return 背景图片
+ */
+- (UIImage *)at_bookShelfBackgroundImageForLevel:(EATBookLevel)bookLevel;
 @end

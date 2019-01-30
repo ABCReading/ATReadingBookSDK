@@ -100,6 +100,7 @@
     
     // 3. 用户login;
     [[ATReadingBookManager sharedInstance] setParentViewController:self
+                                                 deviceOrientation:EATInterfaceOrientationLandscapeRight
                                                         withUserId:kATUserTestID
                                                           delegate:self];
     
@@ -113,14 +114,15 @@
         
         //TEST: 模拟显示主App支付页面
         TestHostPaymentViewController *showPaymentViewController = [[TestHostPaymentViewController alloc] init];
-        [showPaymentViewController setBackBlock:^{
+        [showPaymentViewController setBackBlock:^(BOOL allLevel, NSInteger type) {
             //1. 退出支付页面;
             [atNavigationController popViewControllerAnimated:YES];
             
             //2. 调用开通支付成功的level服务的接口!!!
             [[ATReadingBookManager sharedInstance] paymentSuccessWithTransaction:randomTransactionID
                                                                           userID:userID
-                                                                         levelID:levelID];
+                                                                         levelID:allLevel ? @"1000" : levelID
+                                                                     subTimeType:type];
         }];
         [atNavigationController pushViewController:showPaymentViewController animated:YES];
     }];
