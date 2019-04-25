@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		313432DA22019FF4003BCF91 /* TestHostPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313432D822019FF4003BCF91 /* TestHostPaymentViewController.m */; };
 		3140C88B21AFDC5600AF388B /* ATVoiceEvalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */; };
 		3140C88C21AFDC5600AF388B /* TALVoiceEvalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */; };
 		3140C88D21AFDC5600AF388B /* SingSound.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3140C88921AFDC5200AF388B /* SingSound.Bundle */; };
-		31F771C521AB918D00172BE9 /* TestPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771C321AB918D00172BE9 /* TestPaymentView.m */; };
-		31F771C821AB919700172BE9 /* ATTestInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F771C621AB919700172BE9 /* ATTestInstance.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -28,6 +25,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C4822A102271A3B30071BD4E /* TestHostPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A082271A3B30071BD4E /* TestHostPaymentViewController.m */; };
+		C4822A112271A3B30071BD4E /* TestPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A092271A3B30071BD4E /* TestPaymentView.m */; };
+		C4822A122271A3B30071BD4E /* ATTestInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A0C2271A3B30071BD4E /* ATTestInstance.m */; };
+		C4822A132271A3B30071BD4E /* TestHostRedeemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A0E2271A3B30071BD4E /* TestHostRedeemViewController.m */; };
 		C7C14CEB4F0AC90D8718FDC6 /* Pods_ATReadingBookSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070FF38D0E8859C98EBE9441 /* Pods_ATReadingBookSDK_Tests.framework */; };
 		F5F978BBB40DFD80B26AB09C /* Pods_ATReadingBookSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1D3BE5E32B2EB86FB5AFFF /* Pods_ATReadingBookSDK_Example.framework */; };
 /* End PBXBuildFile section */
@@ -47,16 +48,10 @@
 		070FF38D0E8859C98EBE9441 /* Pods_ATReadingBookSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATReadingBookSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F07818B82DA891A2AD9D544 /* Pods-ATReadingBookSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Tests/Pods-ATReadingBookSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2571F498F75D0F1C1A65A284 /* Pods-ATReadingBookSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Example/Pods-ATReadingBookSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		313432D822019FF4003BCF91 /* TestHostPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHostPaymentViewController.m; sourceTree = "<group>"; };
-		313432D922019FF4003BCF91 /* TestHostPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHostPaymentViewController.h; sourceTree = "<group>"; };
 		3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVoiceEvalManager.m; sourceTree = "<group>"; };
 		3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TALVoiceEvalSDK.framework; sourceTree = "<group>"; };
 		3140C88921AFDC5200AF388B /* SingSound.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SingSound.Bundle; sourceTree = "<group>"; };
 		3140C88A21AFDC5200AF388B /* ATVoiceEvalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVoiceEvalManager.h; sourceTree = "<group>"; };
-		31F771C221AB918D00172BE9 /* TestPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaymentView.h; sourceTree = "<group>"; };
-		31F771C321AB918D00172BE9 /* TestPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaymentView.m; sourceTree = "<group>"; };
-		31F771C621AB919700172BE9 /* ATTestInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTestInstance.m; sourceTree = "<group>"; };
-		31F771C721AB919700172BE9 /* ATTestInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTestInstance.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATReadingBookSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATReadingBookSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +76,14 @@
 		7E9299BD17681A36F6803E3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879176310EA70C899CFA29A4 /* Pods-ATReadingBookSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Example/Pods-ATReadingBookSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4822A082271A3B30071BD4E /* TestHostPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHostPaymentViewController.m; sourceTree = "<group>"; };
+		C4822A092271A3B30071BD4E /* TestPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaymentView.m; sourceTree = "<group>"; };
+		C4822A0A2271A3B30071BD4E /* TestHostPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHostPaymentViewController.h; sourceTree = "<group>"; };
+		C4822A0B2271A3B30071BD4E /* TestPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaymentView.h; sourceTree = "<group>"; };
+		C4822A0C2271A3B30071BD4E /* ATTestInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTestInstance.m; sourceTree = "<group>"; };
+		C4822A0D2271A3B30071BD4E /* ATTestInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTestInstance.h; sourceTree = "<group>"; };
+		C4822A0E2271A3B30071BD4E /* TestHostRedeemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHostRedeemViewController.m; sourceTree = "<group>"; };
+		C4822A0F2271A3B30071BD4E /* TestHostRedeemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHostRedeemViewController.h; sourceTree = "<group>"; };
 		CA1D3BE5E32B2EB86FB5AFFF /* Pods_ATReadingBookSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATReadingBookSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F972529A6760E3C8E4D86F21 /* ATReadingBookSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATReadingBookSDK.podspec; path = ../ATReadingBookSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -166,14 +169,16 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ATViewController.h */,
 				6003F5A6195388D20070C39A /* ATViewController.m */,
+				C4822A0D2271A3B30071BD4E /* ATTestInstance.h */,
+				C4822A0C2271A3B30071BD4E /* ATTestInstance.m */,
+				C4822A0A2271A3B30071BD4E /* TestHostPaymentViewController.h */,
+				C4822A082271A3B30071BD4E /* TestHostPaymentViewController.m */,
+				C4822A0F2271A3B30071BD4E /* TestHostRedeemViewController.h */,
+				C4822A0E2271A3B30071BD4E /* TestHostRedeemViewController.m */,
+				C4822A0B2271A3B30071BD4E /* TestPaymentView.h */,
+				C4822A092271A3B30071BD4E /* TestPaymentView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
-				313432D922019FF4003BCF91 /* TestHostPaymentViewController.h */,
-				313432D822019FF4003BCF91 /* TestHostPaymentViewController.m */,
-				31F771C221AB918D00172BE9 /* TestPaymentView.h */,
-				31F771C321AB918D00172BE9 /* TestPaymentView.m */,
-				31F771C721AB919700172BE9 /* ATTestInstance.h */,
-				31F771C621AB919700172BE9 /* ATTestInstance.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ATReadingBookSDK";
@@ -447,13 +452,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4822A132271A3B30071BD4E /* TestHostRedeemViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ATAppDelegate.m in Sources */,
-				31F771C521AB918D00172BE9 /* TestPaymentView.m in Sources */,
+				C4822A102271A3B30071BD4E /* TestHostPaymentViewController.m in Sources */,
+				C4822A122271A3B30071BD4E /* ATTestInstance.m in Sources */,
 				3140C88B21AFDC5600AF388B /* ATVoiceEvalManager.m in Sources */,
-				313432DA22019FF4003BCF91 /* TestHostPaymentViewController.m in Sources */,
-				31F771C821AB919700172BE9 /* ATTestInstance.m in Sources */,
 				6003F5A7195388D20070C39A /* ATViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C4822A112271A3B30071BD4E /* TestPaymentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,9 @@
 //
 //  ATViewController.m
-//  ATReadingBookSDK
+//  ABCtimeReadingBookSDKDemo
 //
-//  Created by Spaino on 11/22/2018.
-//  Copyright (c) 2018 Spaino. All rights reserved.
+//  Created by Summer on 2018/9/26.
+//  Copyright © 2018年 Summer. All rights reserved.
 //
 
 #import "ATViewController.h"
@@ -13,17 +13,21 @@
 #import "ATAppDelegate.h"
 #import "TestPaymentView.h"
 #import "TestHostPaymentViewController.h"
+#import "TestHostRedeemViewController.h"
 
 #define AT_SCREEN_WIDTH                     MAX(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height)
 #define AT_SCREEN_HEIGHT                    MIN(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height)
 #define AT_SCREEN_BOUNDS                    (CGRect){0, 0, AT_SCREEN_WIDTH, AT_SCREEN_HEIGHT}
 
+@interface ATViewController ()<ABCtimeReadingBookProtocol>
 
-@interface ATViewController ()
 @property (nonatomic, copy) ATVoiceEvalCompletedBlock evalCompletedBlock;
+@property (nonatomic, strong) UITextField *textField;
+
 @end
 
 @implementation ATViewController
+
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     // 强制横屏;
@@ -65,11 +69,20 @@
         retButton;
     })];
     
+    [self.view addSubview:({
+        UITextField *retTextField = [[UITextField alloc] initWithFrame:(CGRect){100,500,100,100}];
+        retTextField.text = @"90015";
+        retTextField.borderStyle = UITextBorderStyleRoundedRect;
+        _textField = retTextField;
+        retTextField;
+    })];
+    
     // ABCtime跟读打分, 处理打分回调
     __weak typeof(self) weakSelf = self;
     [ATVoiceEvalManager sharedInstance].evalResultBlock = ^(id result, BOOL isSuccess) {
         __strong typeof(weakSelf) strongSelf = weakSelf;
         if (result && [result isKindOfClass:ATVoiceEvalResultModel.class]) {
+            //打分成功
             if (strongSelf.evalCompletedBlock) {
                 ATVoiceEvalResultModel *retEvalResultModel = result;
                 NSDictionary *evalResultDic = @{
@@ -77,6 +90,11 @@
                                                 @"audioPath" : retEvalResultModel.audioPath
                                                 };
                 strongSelf.evalCompletedBlock(evalResultDic, isSuccess);
+            }
+        } else {
+            //打分失败
+            if (strongSelf.evalCompletedBlock) {
+                strongSelf.evalCompletedBlock(nil, NO);
             }
         }
     };
@@ -93,10 +111,11 @@
     // 1. 注册ABCtimeReadingBookSDK >> 测试 appID & appSecret
     [ATReadingBookManager registAppID:@"sdk761200000001"
                             appSecret:@"a63623e86db5c31699cef42cffffffff"
-                           serverType:EATServerTypePreRelease];
+                           serverType:EATServerTypeProduction];
     
     // 测试使用的用户id
-#define kATUserTestID      (@"90015")
+    //    #define kATUserTestID      (@"90015")
+    NSString *kATUserTestID = self.textField.text;
     
     // 3. 用户login;
     [[ATReadingBookManager sharedInstance] setParentViewController:self
@@ -110,7 +129,7 @@
                                                                   UINavigationController *atNavigationController) {
         // 模拟订单号;随机数;
         int y =100 +  (arc4random() % 101);
-        NSString *randomTransactionID = [NSString stringWithFormat:@"userID_%@_levelID_%@_random_%d", userID, levelID, y];
+        NSString *randomTransactionID = [NSString stringWithFormat:@"userID_%@_levelID_%@_random_%d", userID, @"1000", y];
         
         //TEST: 模拟显示主App支付页面
         TestHostPaymentViewController *showPaymentViewController = [[TestHostPaymentViewController alloc] init];
@@ -126,6 +145,49 @@
         }];
         [atNavigationController pushViewController:showPaymentViewController animated:YES];
     }];
+    
+    // 5.点击兑换入口吊起 宿主App的兑换页面;
+    [ATReadingBookManager sharedInstance].redeemEnterBlock = ^(NSString *userID,
+                                                               NSString *levelID,
+                                                               UINavigationController *atNavigationController) {
+        TestHostRedeemViewController *redeemViewController = [[TestHostRedeemViewController alloc] init];
+        redeemViewController.redeemBlock = ^(NSString * _Nonnull code) {
+            ATReadingBookRedeemResultBlock redeemResultBlock = ^(BOOL isSuccess, NSError *error) {
+                if (isSuccess || !error) {
+                    //兑换成功
+                    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil
+                                                                        message:@"兑换成功"
+                                                                       delegate:nil
+                                                              cancelButtonTitle:nil
+                                                              otherButtonTitles:nil];
+                    [alertView show];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [alertView dismissWithClickedButtonIndex:0 animated:YES];
+                    });
+                } else {
+                    //兑换失败
+                    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil
+                                                                        message:error.userInfo[@"msg"]
+                                                                       delegate:nil
+                                                              cancelButtonTitle:nil
+                                                              otherButtonTitles:nil];
+                    [alertView show];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [alertView dismissWithClickedButtonIndex:0 animated:YES];
+                    });
+                }
+            };
+            //开始兑换
+            [[ATReadingBookManager sharedInstance] at_redeemWithCode:code
+                                                              userID:userID
+                                                             levelID:levelID
+                                                          completion:redeemResultBlock];
+        };
+        redeemViewController.backBlock = ^{
+            [atNavigationController popViewControllerAnimated:YES];
+        };
+        [atNavigationController pushViewController:redeemViewController animated:YES];
+    };
 }
 
 - (void)p_showAlert {
@@ -154,9 +216,17 @@
     [[ATVoiceEvalManager sharedInstance] cancelEvaluate];
 }
 
+- (void)at_leaveSDK {
+    NSLog(@"退出SDK");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.textField resignFirstResponder];
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
@@ -165,4 +235,5 @@
 - (BOOL) shouldAutorotate {
     return YES;
 }
+
 @end
