@@ -25,6 +25,25 @@ typedef NS_ENUM(NSUInteger, EATInterfaceOrientation) {
     EATInterfaceOrientationLandscapeRight,
 };
 
+/**
+ 兑换开通VIP错误码
+
+ - EATRedeemErrorCodeInvalidParameters: 参数无效 <<< 参数为空字符串或nil
+ - EATRedeemErrorCodeExpired: 兑换码已过期
+ - EATRedeemErrorCodeNotExist: 兑换码不存在
+ - EATRedeemErrorCodeInvalidCode: 兑换码无效 <<< 1.兑换码被退回 2.用单level兑换码来开通全量level会返回兑换码无效
+ - EATRedeemErrorCodeFailed: 兑换失败 <<< SDK调用兑换接口失败，请用户重试即可
+ - EATRedeemErrorCodeUsed: 兑换码已使用
+ */
+typedef NS_ENUM(NSUInteger, EATRedeemErrorCode) {
+    EATRedeemErrorCodeInvalidParameters = -999,
+    EATRedeemErrorCodeExpired = 1205,
+    EATRedeemErrorCodeNotExist = 1206,
+    EATRedeemErrorCodeInvalidCode = 1207,
+    EATRedeemErrorCodeFailed = 1208,
+    EATRedeemErrorCodeUsed = 1209,
+};
+
 // ================================================================================================================ //
 // Block Defines
 /**
@@ -33,7 +52,28 @@ typedef NS_ENUM(NSUInteger, EATInterfaceOrientation) {
  @param levelID 绘本level等级id;
  @param atNavigationController sdk主导航;
  */
-typedef void(^kATReadingBookPaymentBlock)(NSString *userID, NSString *levelID, UINavigationController *atNavigationController);
+typedef void(^kATReadingBookPaymentBlock)(NSString *userID,
+                                          NSString *levelID,
+                                          UINavigationController *atNavigationController);
+
+/**
+ 兑换页面的触发
+
+ @param userID 用户id
+ @param levelID 绘本level等级id
+ @param atNavigationController sdk主导航
+ */
+typedef void(^ATReadingBookRedeemBlock)(NSString *userID,
+                                        NSString *levelID,
+                                        UINavigationController *atNavigationController);
+
+/**
+ 兑换结果回调
+
+ @param isSuccess 是否兑换成功
+ @param error 错误信息
+ */
+typedef void(^ATReadingBookRedeemResultBlock)(BOOL isSuccess, NSError *error);
 
 /**
  取消订单的回调;
@@ -43,7 +83,12 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
 
 // ================================================================================================================ //
 @interface ATReadingBookManager : NSObject
-@property(nonatomic, copy) kATReadingBookPaymentBlock paymentEnterBlock;                        // 展示支付页面的回调;
+
+/** 展示支付页面 */
+@property(nonatomic, copy) kATReadingBookPaymentBlock paymentEnterBlock;
+
+/** 展示兑换页面 */
+@property (nonatomic, copy) ATReadingBookRedeemBlock redeemEnterBlock;
 
 /**
  ABCtime入口单例;
@@ -96,6 +141,24 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
                                userID:(NSString *) userID
                               levelID:(NSString *) levelID
                           subTimeType:(EATSubTimeType) subTimeType;
+
+/**
+ 宿主App兑换页面 >> 调用兑换接口, <重复购买，后台累加有效期>
+
+ @param code 兑换码
+ @param userID 用户ID
+ @param levelID 兑换levelID
+ @param resultBlock 开通结果异步回调block
+ */
+- (void)at_redeemWithCode:(NSString *)code
+                   userID:(NSString *)userID
+                  levelID:(NSString *)levelID
+               completion:(ATReadingBookRedeemResultBlock)resultBlock;
+
+/**
+ 取消兑换VIP操作
+ */
+- (void)at_cancelRedeemRequest;
 
 /**
  取消level绘本的服务;
