@@ -161,6 +161,11 @@ typedef void(^kATReadingBookCancelTransactionBlock)(BOOL success, NSError *error
 - (void)at_cancelRedeemRequest;
 
 /**
+ 更新当前用户信息
+ */
+- (void)at_updateUserInfo;
+
+/**
  取消level绘本的服务;
  @param transactionID 购买level服务的订单号;
  @param completedBlock 取消成功失败的回调;
