@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATReadingBookSDK'
-  s.version          = '2.1.3'
+  s.version          = '2.1.4'
   s.summary          = 'ATReadingBookSDK.'
 
 # This description is used to generate tags and improve search results.
