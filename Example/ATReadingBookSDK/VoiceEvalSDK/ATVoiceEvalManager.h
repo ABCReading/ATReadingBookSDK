@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TALVoiceEvalSDK/TALVoiceEvalSDK.h>
 
 @interface ATVoiceEvalManager : NSObject
 
-
+@property (nonatomic, strong) TALAILabVEEManager *voiceManager;
 @property (nonatomic, copy) void (^evalResultBlock)(id result, BOOL isSuccess);
 
 //QH_SINGLETON_DEF
@@ -74,9 +75,7 @@ typedef NS_ENUM(NSUInteger, ATReadingScoreType) {
 @property (nonatomic, copy) NSString *recordId;             // 音频文件的唯一标识
 @property (nonatomic, copy) NSString *tokenId;              // 用户请求的唯一标识
 @property (nonatomic, copy) NSString *score;                // 分数
-@property (nonatomic, copy) NSString *audioPath;            // 音频路径相对Documents
-
-@property (nonatomic, readonly) NSString *audioFullPath;    // 音频文件的绝对路径, 拼接返回;
+@property (nonatomic, copy) NSString *audioPath;            // 音频全路径
 
 @property (nonatomic, assign) NSInteger scoreIntValue;      //分数整数格式；
 

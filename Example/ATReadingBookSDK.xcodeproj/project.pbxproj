@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3140C88B21AFDC5600AF388B /* ATVoiceEvalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */; };
-		3140C88C21AFDC5600AF388B /* TALVoiceEvalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */; };
-		3140C88D21AFDC5600AF388B /* SingSound.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3140C88921AFDC5200AF388B /* SingSound.Bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -29,6 +27,8 @@
 		C4822A112271A3B30071BD4E /* TestPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A092271A3B30071BD4E /* TestPaymentView.m */; };
 		C4822A122271A3B30071BD4E /* ATTestInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A0C2271A3B30071BD4E /* ATTestInstance.m */; };
 		C4822A132271A3B30071BD4E /* TestHostRedeemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4822A0E2271A3B30071BD4E /* TestHostRedeemViewController.m */; };
+		C4A635482327EDD500966F5B /* TALVoiceEvalSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A635442327EDD500966F5B /* TALVoiceEvalSDK.framework */; };
+		C4A635492327EDD500966F5B /* SingSound.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4A635472327EDD500966F5B /* SingSound.Bundle */; };
 		C7C14CEB4F0AC90D8718FDC6 /* Pods_ATReadingBookSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070FF38D0E8859C98EBE9441 /* Pods_ATReadingBookSDK_Tests.framework */; };
 		F5F978BBB40DFD80B26AB09C /* Pods_ATReadingBookSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1D3BE5E32B2EB86FB5AFFF /* Pods_ATReadingBookSDK_Example.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +49,6 @@
 		1F07818B82DA891A2AD9D544 /* Pods-ATReadingBookSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Tests/Pods-ATReadingBookSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2571F498F75D0F1C1A65A284 /* Pods-ATReadingBookSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATReadingBookSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATReadingBookSDK_Example/Pods-ATReadingBookSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVoiceEvalManager.m; sourceTree = "<group>"; };
-		3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TALVoiceEvalSDK.framework; sourceTree = "<group>"; };
-		3140C88921AFDC5200AF388B /* SingSound.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SingSound.Bundle; sourceTree = "<group>"; };
 		3140C88A21AFDC5200AF388B /* ATVoiceEvalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVoiceEvalManager.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATReadingBookSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATReadingBookSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +82,8 @@
 		C4822A0D2271A3B30071BD4E /* ATTestInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTestInstance.h; sourceTree = "<group>"; };
 		C4822A0E2271A3B30071BD4E /* TestHostRedeemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHostRedeemViewController.m; sourceTree = "<group>"; };
 		C4822A0F2271A3B30071BD4E /* TestHostRedeemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHostRedeemViewController.h; sourceTree = "<group>"; };
+		C4A635442327EDD500966F5B /* TALVoiceEvalSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TALVoiceEvalSDK.framework; sourceTree = "<group>"; };
+		C4A635472327EDD500966F5B /* SingSound.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SingSound.Bundle; sourceTree = "<group>"; };
 		CA1D3BE5E32B2EB86FB5AFFF /* Pods_ATReadingBookSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATReadingBookSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F972529A6760E3C8E4D86F21 /* ATReadingBookSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATReadingBookSDK.podspec; path = ../ATReadingBookSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -95,8 +95,8 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				C4A635482327EDD500966F5B /* TALVoiceEvalSDK.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3140C88C21AFDC5600AF388B /* TALVoiceEvalSDK.framework in Frameworks */,
 				F5F978BBB40DFD80B26AB09C /* Pods_ATReadingBookSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,10 +118,9 @@
 		3140C88621AFDC5200AF388B /* VoiceEvalSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C4A635422327EDD500966F5B /* TALVoiceEvalSDK */,
 				3140C88A21AFDC5200AF388B /* ATVoiceEvalManager.h */,
 				3140C88721AFDC5200AF388B /* ATVoiceEvalManager.m */,
-				3140C88821AFDC5200AF388B /* TALVoiceEvalSDK.framework */,
-				3140C88921AFDC5200AF388B /* SingSound.Bundle */,
 			);
 			path = VoiceEvalSDK;
 			sourceTree = "<group>";
@@ -236,6 +235,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C4A635422327EDD500966F5B /* TALVoiceEvalSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4A635432327EDD500966F5B /* frameworks */,
+				C4A635452327EDD500966F5B /* resource */,
+			);
+			path = TALVoiceEvalSDK;
+			sourceTree = "<group>";
+		};
+		C4A635432327EDD500966F5B /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4A635442327EDD500966F5B /* TALVoiceEvalSDK.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		C4A635452327EDD500966F5B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C4A635462327EDD500966F5B /* bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		C4A635462327EDD500966F5B /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C4A635472327EDD500966F5B /* SingSound.Bundle */,
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,6 +333,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -320,7 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3140C88D21AFDC5600AF388B /* SingSound.Bundle in Resources */,
+				C4A635492327EDD500966F5B /* SingSound.Bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -618,6 +651,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK",
 					"$(PROJECT_DIR)/ATReadingBookSDK",
+					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK/TALVoiceEvalSDK/frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";
@@ -639,6 +673,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK",
 					"$(PROJECT_DIR)/ATReadingBookSDK",
+					"$(PROJECT_DIR)/ATReadingBookSDK/VoiceEvalSDK/TALVoiceEvalSDK/frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATReadingBookSDK/ATReadingBookSDK-Prefix.pch";

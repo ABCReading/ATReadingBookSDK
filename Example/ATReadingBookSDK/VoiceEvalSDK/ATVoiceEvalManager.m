@@ -8,7 +8,6 @@
 
 #import "ATVoiceEvalManager.h"
 #import <AVFoundation/AVFoundation.h>
-#import <TALVoiceEvalSDK/TALVoiceEvalSDK.h>
 
 /** ABCtimeReadingBook_支持趣配音_语音评测
  appKey : @"a342"
@@ -19,7 +18,6 @@ static NSString *const evalSecretKey = @"c11163aa6c834a028da4a4b30955be23";//@"c
 
 // 语音测评管理工具类
 @interface ATVoiceEvalManager() <TALAILabVEEManagerDelegate>
-@property (nonatomic, strong) TALAILabVEEManager *voiceManager;
 @end
 
 @implementation ATVoiceEvalManager
@@ -129,23 +127,25 @@ static NSString *const evalSecretKey = @"c11163aa6c834a028da4a4b30955be23";//@"c
 
 // 评测完成后的结果
 - (void)oralEvaluatingDidEndWithResult:(NSDictionary *)result {
-
-    if ([result[@"result"][@"wavetime"] intValue] < 300) {
-        // 录音时间过短
-        if (self.evalResultBlock) {
-            // Domin与errorcode 随意定义的，以后有规范的话再修改
+    
+    NSLog(@"接收到评测结果: %@", result);
+    if (self.evalResultBlock) {
+        if (!result || ![result isKindOfClass:NSDictionary.class]) {
+            //结果为空
             NSError *error = [NSError errorWithDomain:@"com.eval.error"
-                                                 code:-2395
-                                             userInfo:@{NSLocalizedDescriptionKey:@"录音时间过短!"}];
+                                                 code:-999
+                                             userInfo:@{@"msg" : @"打分结果异常"}];
             self.evalResultBlock(error, NO);
+            return;
         }
+        
+        // 将结果的字典转成model
+        ATVoiceEvalResultModel *model = [[ATVoiceEvalResultModel alloc] init];
+        [model transfromFromEvalResult:result];
+        self.evalResultBlock(model, YES);
+        
     } else {
-        if (self.evalResultBlock) {
-            // 将结果的字典转成model
-            ATVoiceEvalResultModel *model = [[ATVoiceEvalResultModel alloc] init];
-            [model transfromFromEvalResult:result];
-            self.evalResultBlock(model, YES);
-        }
+        NSLog(@"self.evalResultBlock = nil！>>>> %@", self);
     }
 }
 
@@ -280,6 +280,7 @@ static NSString *const evalSecretKey = @"c11163aa6c834a028da4a4b30955be23";//@"c
 
 //MARK: TAL Eval 返回的resultDic parse to ATVoiceEvalResultModel
 - (void)transfromFromEvalResult: (NSDictionary *)result {
+    
     if (!result || ![result isKindOfClass:NSDictionary.class]) {
         NSLog(@"EvalResult is invalid dictionary >> %@", result);
         return;
@@ -294,15 +295,10 @@ static NSString *const evalSecretKey = @"c11163aa6c834a028da4a4b30955be23";//@"c
         self.score = [NSString stringWithFormat:@"%ld", (long)retNum.integerValue];
     }
 
-    self.recordId = result[@"recordId"] == nil ? @"" : result[@"recordId"];
-    self.tokenId = result[@"tokenId"] == nil ? @"" : result[@"tokenId"];
+    self.recordId = result[@"recordId"] ?: @"";
+    self.tokenId = result[@"tokenId"] ?: @"";
     
-    self.audioPath = [[ATVoiceEvalManager sharedInstance] getRecordPathWithToken:self.tokenId] ? : @"";
-}
-
-// TAL Eval 录音文件的本地绝对路径;
-- (NSString *)audioFullPath {
-    return self.audioPath;
+    self.audioPath = [[ATVoiceEvalManager sharedInstance] getRecordPathWithToken:self.tokenId] ?: @"";
 }
 
 @end
