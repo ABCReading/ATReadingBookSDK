@@ -5,6 +5,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -141,6 +143,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Summer</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1319</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1319_small.jpg</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Water</string>
 				<key>cat_name</key>
 				<string>aa</string>
@@ -207,6 +231,50 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>It Is Fall</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1288</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1288_small.jpg</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Winter</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1349</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1349_small.jpg</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>17</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>The Plant</string>
 				<key>cat_name</key>
 				<string>aa</string>
@@ -226,6 +294,28 @@
 				<integer>5</integer>
 				<key>words_num</key>
 				<integer>17</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Spring</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1318</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1318_small.jpg</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>16</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -271,6 +361,292 @@
 				<key>words_num</key>
 				<integer>16</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Jellyfish</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1876</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514274380_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>8</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Animal Sounds</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1916</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1916_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Rainbow</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1919</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1919_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>17</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Baby Animals</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1923</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1923_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Dogs</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1928</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1928_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Forest Animals</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1929</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1929_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>26</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Like Vegetables</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1939</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1939_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Little</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1941</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1941_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Safari</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1949</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1949_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Spots and Stripes</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1952</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1952_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Water</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1957</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1957_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>23</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Wild Animals</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1962</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1962_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Rain on Fairyland</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2746</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554792566_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -278,6 +654,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -793,6 +1171,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -1061,6 +1441,50 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Play Ball!</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1311</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1311_small.jpg</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Baseball Game</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1322</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_1322_small.jpg</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>The Trip</string>
 				<key>cat_name</key>
 				<string>aa</string>
@@ -1147,6 +1571,622 @@
 				<key>words_num</key>
 				<integer>16</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Circle</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1875</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514273845_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Straw</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1877</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514274792_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Triangle</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1878</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514275100_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Xylophone</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1879</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514275209_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Dark Colors</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1881</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514275508_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Listen</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1913</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1913_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Happy Friends</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1915</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1915_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>12</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>An Apartment</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1920</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1920_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>At the Beach</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1922</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1922_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Christmas Day</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1925</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1925_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Colorful World</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1927</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1927_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Halloween</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1932</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1932_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>22</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Happy Banana</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1933</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1933_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>23</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>High and Low</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1935</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1935_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>41</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Make a Cake</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1942</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1942_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Mixing Colors</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1943</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1943_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Craft</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1945</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1945_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>25</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Robot</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1947</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1947_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Nice to Meet You</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1948</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1948_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>31</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Shapes</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1951</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1951_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>27</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Playground</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1953</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1953_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>25</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Sounds Around Me</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1954</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1954_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>38</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Under</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1956</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1956_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Who Am I?</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1960</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1960_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Who Is It?</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1961</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1961_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Zigzag</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1963</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1963_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>28</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>On an Airplane</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2745</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554777880_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Bookstore</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2747</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554792673_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -1154,6 +2194,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -1530,6 +2572,336 @@
 				<key>words_num</key>
 				<integer>16</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Classroom Rules</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1880</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1514275318_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>We Share</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1917</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1917_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>17</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Brush My Teeth</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1924</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1924_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>44</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Class Rules</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1926</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1926_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Fruits in the Market</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1930</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1930_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Get Dressed</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1931</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1931_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>38</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Have a Pet</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1938</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1938_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>36</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Birthday Party</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1944</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1944_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Pet</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1946</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1946_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>28</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Shake</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1950</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1950_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>26</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Time for School</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1955</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1955_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>We Are Family</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1958</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1958_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>25</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>What Can You Hear?</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1959</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1959_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Mom</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2748</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554792789_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Movie</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2812</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554973612_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>16</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -1537,6 +2909,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -1554,72 +2928,6 @@
 				<integer>1</integer>
 				<key>pic</key>
 				<string>http://file.abctime.com/book_1294_small.jpg</string>
-				<key>scene</key>
-				<string>People</string>
-				<key>sid</key>
-				<integer>91</integer>
-				<key>words_num</key>
-				<integer>17</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
-				<string>Summer</string>
-				<key>cat_name</key>
-				<string>aa</string>
-				<key>cid</key>
-				<integer>3</integer>
-				<key>guest_readable</key>
-				<integer>1</integer>
-				<key>id</key>
-				<integer>1319</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_1319_small.jpg</string>
-				<key>scene</key>
-				<string>People</string>
-				<key>sid</key>
-				<integer>91</integer>
-				<key>words_num</key>
-				<integer>16</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
-				<string>It Is Fall</string>
-				<key>cat_name</key>
-				<string>aa</string>
-				<key>cid</key>
-				<integer>3</integer>
-				<key>guest_readable</key>
-				<integer>1</integer>
-				<key>id</key>
-				<integer>1288</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_1288_small.jpg</string>
-				<key>scene</key>
-				<string>People</string>
-				<key>sid</key>
-				<integer>91</integer>
-				<key>words_num</key>
-				<integer>16</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
-				<string>Winter</string>
-				<key>cat_name</key>
-				<string>aa</string>
-				<key>cid</key>
-				<integer>3</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>1349</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_1349_small.jpg</string>
 				<key>scene</key>
 				<string>People</string>
 				<key>sid</key>
@@ -1651,7 +2959,7 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>Spring</string>
+				<string>I Can Do It!</string>
 				<key>cat_name</key>
 				<string>aa</string>
 				<key>cid</key>
@@ -1659,21 +2967,21 @@
 				<key>guest_readable</key>
 				<integer>0</integer>
 				<key>id</key>
-				<integer>1318</integer>
+				<integer>1882</integer>
 				<key>orientation</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>pic</key>
-				<string>http://file.abctime.com/book_1318_small.jpg</string>
+				<string>https://qnfile.abctime.com/book_1514275816_small.png</string>
 				<key>scene</key>
 				<string>People</string>
 				<key>sid</key>
 				<integer>91</integer>
 				<key>words_num</key>
-				<integer>16</integer>
+				<integer>15</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>Play Ball!</string>
+				<string>My Favorites</string>
 				<key>cat_name</key>
 				<string>aa</string>
 				<key>cid</key>
@@ -1681,11 +2989,33 @@
 				<key>guest_readable</key>
 				<integer>0</integer>
 				<key>id</key>
-				<integer>1311</integer>
+				<integer>1914</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1914_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>18</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Who Am I?</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1918</integer>
 				<key>orientation</key>
 				<integer>1</integer>
 				<key>pic</key>
-				<string>http://file.abctime.com/book_1311_small.jpg</string>
+				<string>https://qnfile.abctime.com/book_1918_small.png</string>
 				<key>scene</key>
 				<string>People</string>
 				<key>sid</key>
@@ -1695,7 +3025,7 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>The Baseball Game</string>
+				<string>Happy Birthday</string>
 				<key>cat_name</key>
 				<string>aa</string>
 				<key>cid</key>
@@ -1703,17 +3033,105 @@
 				<key>guest_readable</key>
 				<integer>0</integer>
 				<key>id</key>
-				<integer>1322</integer>
+				<integer>1934</integer>
 				<key>orientation</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>pic</key>
-				<string>http://file.abctime.com/book_1322_small.jpg</string>
+				<string>https://qnfile.abctime.com/book_1934_small.png</string>
 				<key>scene</key>
 				<string>People</string>
 				<key>sid</key>
 				<integer>91</integer>
 				<key>words_num</key>
-				<integer>16</integer>
+				<integer>30</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Can Touch</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1936</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1936_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>41</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Can...</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1937</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1937_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>46</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Love My Family</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1940</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1940_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>30</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Boy and a Girl</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1964</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1964_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>14</integer>
 			</dict>
 		</array>
 		<key>sid</key>
@@ -1722,6 +3140,8 @@
 	<dict>
 		<key>cid</key>
 		<string>3</string>
+		<key>level</key>
+		<string>aa</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -1900,6 +3320,28 @@
 				<key>words_num</key>
 				<integer>24</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Angry Bird</string>
+				<key>cat_name</key>
+				<string>aa</string>
+				<key>cid</key>
+				<integer>3</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1921</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1921_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>51</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -1907,6 +3349,8 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -2173,6 +3617,182 @@
 				<key>words_num</key>
 				<integer>24</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Vegetables</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2435</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551430113_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Fruit Colors</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2444</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551756118_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>31</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Hello, Butterfly</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2470</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551839718_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>23</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Shapes in Nature</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2483</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551845145_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>38</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Spring and Fall</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2487</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551858840_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Rainstorm</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2494</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551863301_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Rabbits</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2502</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551927014_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Snake Colors</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2504</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551930308_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -2180,6 +3800,8 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -2294,28 +3916,6 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>You Can Dance</string>
-				<key>cat_name</key>
-				<string>A</string>
-				<key>cid</key>
-				<integer>4</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>383</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_383_small.jpg</string>
-				<key>scene</key>
-				<string>Science</string>
-				<key>sid</key>
-				<integer>9</integer>
-				<key>words_num</key>
-				<integer>24</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
 				<string>This Insect</string>
 				<key>cat_name</key>
 				<string>A</string>
@@ -2343,6 +3943,8 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -2543,6 +4145,358 @@
 				<key>words_num</key>
 				<integer>31</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Car Parts</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2449</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551766903_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Fun in the Water</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2452</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551857142_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Draw a Bunny</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2471</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551841128_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Sundae Time</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2490</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552016755_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Tastes</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2496</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551865294_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>What Do I Hear?</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2500</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551925255_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Mall</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2506</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551931414_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All Kinds of Buttons</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2749</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554792323_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Make a Salad</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2750</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554792926_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Move It!</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2752</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554793289_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Our Apartment Building</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2753</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554793361_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Is My Bear</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2754</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554793480_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Write!</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2755</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554794168_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Sounds</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2756</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554794288_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Time for Eggs</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2757</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554794374_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Looks</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2758</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554794603_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -2550,8 +4504,32 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>My Room</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>73</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_73_small.jpg</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>A Fish Sees</string>
@@ -2816,6 +4794,116 @@
 				<key>words_num</key>
 				<integer>34</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Clean, Not Clean</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2455</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551773410_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>36</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Building with Blocks</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2460</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551776434_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My House</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2477</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551843520_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Smile</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2486</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551856916_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>31</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Make Me Laugh</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2751</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554793085_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -2823,6 +4911,8 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -2959,6 +5049,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>You Can Dance</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>383</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_383_small.jpg</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>I Can Skate</string>
 				<key>cat_name</key>
 				<string>A</string>
@@ -3067,6 +5179,72 @@
 				<key>words_num</key>
 				<integer>32</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>My Face</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2436</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551433941_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All Kinds of Faces</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2441</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551753841_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Grandparents Are Great!</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2463</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551779299_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>24</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>91</integer>
@@ -3074,6 +5252,8 @@
 	<dict>
 		<key>cid</key>
 		<string>4</string>
+		<key>level</key>
+		<string>A</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -3166,6 +5346,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Opposites</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>676</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_676_small.jpg</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>28</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Hot and Cold</string>
 				<key>cat_name</key>
 				<string>A</string>
@@ -3185,6 +5387,28 @@
 				<integer>1</integer>
 				<key>words_num</key>
 				<integer>38</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Christmas Cookies</string>
+				<key>cat_name</key>
+				<string>A</string>
+				<key>cid</key>
+				<integer>4</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2026</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_2026_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>24</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -3215,6 +5439,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -3613,6 +5839,160 @@
 				<key>words_num</key>
 				<integer>51</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Amazing Caves</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2041</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1523589543_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Animals Can Move</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2437</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551684612_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Rain in the City</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2445</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551756477_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Rain in the Country</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2539</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552275101_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Turtle</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2760</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554779247_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>34</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Gobi Desert Animals</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2762</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554791877_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>42</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Wind Blows</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2815</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1555053366_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>39</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -3620,6 +6000,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -3702,7 +6084,7 @@
 				<key>orientation</key>
 				<integer>1</integer>
 				<key>pic</key>
-				<string>http://file.abctime.com/book_123_small.jpg</string>
+				<string>https://qnfile.abctime.com/book_123_small.png</string>
 				<key>scene</key>
 				<string>Science</string>
 				<key>sid</key>
@@ -3805,6 +6187,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -4005,6 +6389,50 @@
 				<key>words_num</key>
 				<integer>40</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Trucks</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2447</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551758569_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>So Many Shops</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2766</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1556174778_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>35</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -4012,6 +6440,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -4454,6 +6884,116 @@
 				<key>words_num</key>
 				<integer>39</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>After School</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2439</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551686598_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>49</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All By Myself</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2443</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551754273_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Boats</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2537</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552272102_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>32</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Old and New</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2538</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552274102_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>36</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Sandwich</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2759</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554777575_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>48</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -4461,6 +7001,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -4624,6 +7166,8 @@
 	<dict>
 		<key>cid</key>
 		<string>5</string>
+		<key>level</key>
+		<string>B</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -4912,6 +7456,138 @@
 				<key>words_num</key>
 				<integer>32</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Wet Wally</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2761</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554782371_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>41</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Drop It!</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2763</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554793170_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>37</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Mouse in the City</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2764</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554794235_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>33</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Crows on a Wire</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2765</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554797185_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>47</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Wake Up, Rooster!</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2767</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554800113_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Make a Superhero!</string>
+				<key>cat_name</key>
+				<string>B</string>
+				<key>cid</key>
+				<integer>5</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2769</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554800951_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>40</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -4919,6 +7595,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -5052,6 +7730,28 @@
 				<integer>5</integer>
 				<key>words_num</key>
 				<integer>48</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Moms Do So Much</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1801</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1801_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>54</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -5231,7 +7931,7 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>That’s a Fruit?</string>
+				<string>That's a Fruit?</string>
 				<key>cat_name</key>
 				<string>C</string>
 				<key>cid</key>
@@ -5251,6 +7951,94 @@
 				<key>words_num</key>
 				<integer>46</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All About Penguins</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2448</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551765519_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>64</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All About Earthworms</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2453</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551771128_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>60</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Ice</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2776</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554804077_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>55</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Animals That Sting</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2787</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554869719_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>53</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -5258,6 +8046,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -5399,6 +8189,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -5643,6 +8435,50 @@
 				<key>words_num</key>
 				<integer>60</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Building a Road</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2456</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551775469_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>48</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Airplanes</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2791</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1556175197_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>48</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -5650,6 +8486,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -5786,6 +8624,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>What Can We Draw?</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1813</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1813_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>62</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>I Can Be</string>
 				<key>cat_name</key>
 				<string>C</string>
@@ -5893,6 +8753,28 @@
 				<integer>7</integer>
 				<key>words_num</key>
 				<integer>51</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Pairs</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>346</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_346_small.jpg</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>56</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -6202,6 +9084,138 @@
 				<key>words_num</key>
 				<integer>50</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>What's for Breakfast?</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2451</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551768618_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>48</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Winter Hats</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2454</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551773346_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>61</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>You Like What?</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2461</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551777207_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>50</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Festival of Lights</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2462</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551778356_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>61</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Can Help</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2771</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554802230_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>49</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Quiet or Loud?</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2779</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1556176245_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>63</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -6209,6 +9223,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -6394,6 +9410,8 @@
 	<dict>
 		<key>cid</key>
 		<string>6</string>
+		<key>level</key>
+		<string>C</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -6572,6 +9590,116 @@
 				<key>words_num</key>
 				<integer>53</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Abby and Zots</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2773</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554802936_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>48</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Want to Be a Cat</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2777</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554862854_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>56</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Box</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2785</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554867891_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>55</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Too Hot!</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2789</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554878339_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>51</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Build a World</string>
+				<key>cat_name</key>
+				<string>C</string>
+				<key>cid</key>
+				<integer>6</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2792</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554880571_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>62</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -6579,6 +9707,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -7109,6 +10239,94 @@
 				<key>words_num</key>
 				<integer>57</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All About Foxes</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2468</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551780208_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>69</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Tiger Sharks</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2484</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551849868_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>54</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Who Runs Faster?</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2541</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552286283_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>95</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>How Do They Swim?</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2772</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554802890_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>80</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -7116,6 +10334,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -7213,6 +10433,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -7486,6 +10708,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -7754,6 +10978,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Katie and Katie</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>185</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_185_small.jpg</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>81</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Just a Trim</string>
 				<key>cat_name</key>
 				<string>D</string>
@@ -7862,6 +11108,116 @@
 				<key>words_num</key>
 				<integer>75</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Tootsie Can Talk</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2469</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551782985_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>63</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Dollars and Cents</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2472</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551841471_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>83</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Like My Hair</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2478</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551843951_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>128</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>I Did Not Give Up!</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2774</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554803865_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>86</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Who Wants to Play Basketball?</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2778</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554864542_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>59</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -7869,6 +11225,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -8032,6 +11390,8 @@
 	<dict>
 		<key>cid</key>
 		<string>7</string>
+		<key>level</key>
+		<string>D</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -8232,6 +11592,50 @@
 				<key>words_num</key>
 				<integer>72</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Do Not Eat That!</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2768</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554800467_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>94</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>What to Wear?</string>
+				<key>cat_name</key>
+				<string>D</string>
+				<key>cid</key>
+				<integer>7</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2770</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554801463_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>84</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -8239,6 +11643,8 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -8463,6 +11869,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>The Four Seasons</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>224</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_224_small.jpg</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>81</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>The Storm</string>
 				<key>cat_name</key>
 				<string>E</string>
@@ -8482,28 +11910,6 @@
 				<integer>5</integer>
 				<key>words_num</key>
 				<integer>104</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
-				<string>Runaway Snowball</string>
-				<key>cat_name</key>
-				<string>E</string>
-				<key>cid</key>
-				<integer>8</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>615</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_615_small.jpg</string>
-				<key>scene</key>
-				<string>Nature</string>
-				<key>sid</key>
-				<integer>5</integer>
-				<key>words_num</key>
-				<integer>111</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -8549,6 +11955,116 @@
 				<key>words_num</key>
 				<integer>109</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Class Pets</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>2050</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_2050_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>96</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>City Animals</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2485</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551856245_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>109</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Animals, Animals</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2488</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551859247_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>83</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All About Coyotes</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2501</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551926068_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>79</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>In the Sea</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2805</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554889801_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>105</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>5</integer>
@@ -8556,6 +12072,8 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -8653,8 +12171,32 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Ava Is a Vegan</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1839</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1839_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>103</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>Crazy Cakes</string>
@@ -8789,28 +12331,6 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>Carlos's First Halloween</string>
-				<key>cat_name</key>
-				<string>E</string>
-				<key>cid</key>
-				<integer>8</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>475</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_475_small.jpg</string>
-				<key>scene</key>
-				<string>Exploration</string>
-				<key>sid</key>
-				<integer>3</integer>
-				<key>words_num</key>
-				<integer>101</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
 				<string>Nothing for Father's Day</string>
 				<key>cat_name</key>
 				<string>E</string>
@@ -8833,7 +12353,7 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>Kaden’s Kwanzaa</string>
+				<string>Kaden's Kwanzaa</string>
 				<key>cat_name</key>
 				<string>E</string>
 				<key>cid</key>
@@ -8853,6 +12373,72 @@
 				<key>words_num</key>
 				<integer>79</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Leaning Tower</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2786</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554868420_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>106</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Goodbye Snow</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2790</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554879225_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>89</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Muddy Boots</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2793</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554880801_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>109</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -8860,6 +12446,8 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -9324,6 +12912,94 @@
 				<key>words_num</key>
 				<integer>98</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Bath Time</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2492</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551862494_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>101</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All Kinds of Factories</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2495</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551863909_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>120</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>A Day of Firsts</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2497</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551865693_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>91</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>All Kinds of Farms</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2509</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551942644_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>100</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -9331,8 +13007,32 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Sew Who?</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1844</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1844_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>108</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>Grandparents Day</string>
@@ -9511,28 +13211,6 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>The Four Seasons</string>
-				<key>cat_name</key>
-				<string>E</string>
-				<key>cid</key>
-				<integer>8</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>224</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_224_small.jpg</string>
-				<key>scene</key>
-				<string>People</string>
-				<key>sid</key>
-				<integer>91</integer>
-				<key>words_num</key>
-				<integer>81</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
 				<string>A Week with Grandpa</string>
 				<key>cat_name</key>
 				<string>E</string>
@@ -9582,6 +13260,8 @@
 	<dict>
 		<key>cid</key>
 		<string>8</string>
+		<key>level</key>
+		<string>E</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -9718,6 +13398,50 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Runaway Snowball</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>615</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_615_small.jpg</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>111</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Carlos's First Halloween</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>475</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_475_small.jpg</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>101</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>A Sweet Tale</string>
 				<key>cat_name</key>
 				<string>E</string>
@@ -9804,6 +13528,72 @@
 				<key>words_num</key>
 				<integer>72</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Where Are My Things?</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2499</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551868035_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>110</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Zots Goes to School</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2780</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554866079_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>103</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Zots Learns to Play</string>
+				<key>cat_name</key>
+				<string>E</string>
+				<key>cid</key>
+				<integer>8</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2784</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554867355_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>104</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -9811,8 +13601,32 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Gaggle, Herd, and Murder</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1873</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1873_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>129</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>The Food Chain</string>
@@ -9834,6 +13648,50 @@
 				<integer>5</integer>
 				<key>words_num</key>
 				<integer>152</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>In a Chinese Garden</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1868</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1868_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>96</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Night Animals</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>1869</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1869_small.png</string>
+				<key>scene</key>
+				<string>Nature</string>
+				<key>sid</key>
+				<integer>5</integer>
+				<key>words_num</key>
+				<integer>132</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -9969,28 +13827,6 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
-				<string>Fishtank Fun</string>
-				<key>cat_name</key>
-				<string>F</string>
-				<key>cid</key>
-				<integer>9</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>240</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_240_small.jpg</string>
-				<key>scene</key>
-				<string>Nature</string>
-				<key>sid</key>
-				<integer>5</integer>
-				<key>words_num</key>
-				<integer>119</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
 				<string>How Is the Weather Today?</string>
 				<key>cat_name</key>
 				<string>F</string>
@@ -10062,8 +13898,32 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Taste This</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1871</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1871_small.png</string>
+				<key>scene</key>
+				<string>Science</string>
+				<key>sid</key>
+				<integer>9</integer>
+				<key>words_num</key>
+				<integer>109</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>Color Wheel Colors</string>
@@ -10342,7 +14202,7 @@
 				<key>orientation</key>
 				<integer>1</integer>
 				<key>pic</key>
-				<string>https://qnfile.abctime.com/book_2066_small.png</string>
+				<string>https://qnfile.abctime.com/book_1540889443_small.png</string>
 				<key>scene</key>
 				<string>Science</string>
 				<key>sid</key>
@@ -10357,6 +14217,8 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -10380,6 +14242,28 @@
 				<integer>3</integer>
 				<key>words_num</key>
 				<integer>145</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Sleds</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1870</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1870_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>113</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -10515,6 +14399,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Fishtank Fun</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>240</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>http://file.abctime.com/book_240_small.jpg</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>119</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Hatching Eggs</string>
 				<key>cat_name</key>
 				<string>F</string>
@@ -10535,6 +14441,28 @@
 				<key>words_num</key>
 				<integer>124</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Cascarones</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2797</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554885991_small.png</string>
+				<key>scene</key>
+				<string>Exploration</string>
+				<key>sid</key>
+				<integer>3</integer>
+				<key>words_num</key>
+				<integer>99</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>3</integer>
@@ -10542,8 +14470,32 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Weird White House Pets</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1872</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1872_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>146</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>At the Movies</string>
@@ -10832,6 +14784,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Ramadan Is Here</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>2067</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1550043198_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>103</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Rock Climbing</string>
 				<key>cat_name</key>
 				<string>F</string>
@@ -10852,6 +14826,72 @@
 				<key>words_num</key>
 				<integer>118</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Many Roads</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2503</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551928363_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>161</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Election Day</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2505</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551931019_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>101</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Last Piece of Cake</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2794</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554881858_small.png</string>
+				<key>scene</key>
+				<string>Life</string>
+				<key>sid</key>
+				<integer>7</integer>
+				<key>words_num</key>
+				<integer>151</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>7</integer>
@@ -10859,8 +14899,32 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
+			<dict>
+				<key>book_name</key>
+				<string>Community Workers</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>1</integer>
+				<key>id</key>
+				<integer>1867</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1867_small.png</string>
+				<key>scene</key>
+				<string>People</string>
+				<key>sid</key>
+				<integer>91</integer>
+				<key>words_num</key>
+				<integer>84</integer>
+			</dict>
 			<dict>
 				<key>book_name</key>
 				<string>I Am a Gymnast</string>
@@ -11000,6 +15064,8 @@
 	<dict>
 		<key>cid</key>
 		<string>9</string>
+		<key>level</key>
+		<string>F</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -11310,6 +15376,50 @@
 				<key>words_num</key>
 				<integer>279</integer>
 			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Zots Helps Out</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2795</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554883061_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>147</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Bake Sale</string>
+				<key>cat_name</key>
+				<string>F</string>
+				<key>cid</key>
+				<integer>9</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2796</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554884470_small.png</string>
+				<key>scene</key>
+				<string>Stories</string>
+				<key>sid</key>
+				<integer>1</integer>
+				<key>words_num</key>
+				<integer>130</integer>
+			</dict>
 		</array>
 		<key>sid</key>
 		<integer>1</integer>
@@ -11317,6 +15427,8 @@
 	<dict>
 		<key>cid</key>
 		<string>10</string>
+		<key>level</key>
+		<string>G</string>
 		<key>rows</key>
 		<array>
 			<dict>
@@ -11934,28 +16046,6 @@
 				<integer>0</integer>
 				<key>words_num</key>
 				<integer>138</integer>
-			</dict>
-			<dict>
-				<key>book_name</key>
-				<string>Stars and Stripes</string>
-				<key>cat_name</key>
-				<string>G</string>
-				<key>cid</key>
-				<integer>10</integer>
-				<key>guest_readable</key>
-				<integer>0</integer>
-				<key>id</key>
-				<integer>364</integer>
-				<key>orientation</key>
-				<integer>1</integer>
-				<key>pic</key>
-				<string>http://file.abctime.com/book_364_small.jpg</string>
-				<key>scene</key>
-				<string>Others</string>
-				<key>sid</key>
-				<integer>0</integer>
-				<key>words_num</key>
-				<integer>176</integer>
 			</dict>
 			<dict>
 				<key>book_name</key>
@@ -12751,6 +16841,28 @@
 			</dict>
 			<dict>
 				<key>book_name</key>
+				<string>Cockroaches</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2087</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1524636326_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>146</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
 				<string>Fire Safety</string>
 				<key>cat_name</key>
 				<string>G</string>
@@ -12792,6 +16904,336 @@
 				<integer>0</integer>
 				<key>words_num</key>
 				<integer>175</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Ready, Set, Bike!</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2440</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551693717_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>164</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Hard Frost</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2446</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551757849_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>150</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Ride, Cling, Run</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2450</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551768395_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>164</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Rock Hunting</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2457</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551775928_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>154</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Meet the Beetles</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2464</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551779838_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>140</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Squirrel Acrobats</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2473</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551842962_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>167</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Taking the Train</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2479</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551844904_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>145</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Spider's Web</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2489</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551859571_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>118</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>This Is a Bird</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2491</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552530459_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>203</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Whose eggs are these?</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2493</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552531784_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>195</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Why Do Leaves Change Color?</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2498</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1551866595_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>152</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>The Food We Eat</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2507</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552549168_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>195</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Wiggly Worms</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2518</integer>
+				<key>orientation</key>
+				<integer>1</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1552545287_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>174</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Ough Is Tough</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2799</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554887580_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>175</integer>
+			</dict>
+			<dict>
+				<key>book_name</key>
+				<string>Scorpions</string>
+				<key>cat_name</key>
+				<string>G</string>
+				<key>cid</key>
+				<integer>10</integer>
+				<key>guest_readable</key>
+				<integer>0</integer>
+				<key>id</key>
+				<integer>2801</integer>
+				<key>orientation</key>
+				<integer>2</integer>
+				<key>pic</key>
+				<string>https://qnfile.abctime.com/book_1554888623_small.png</string>
+				<key>scene</key>
+				<string>Others</string>
+				<key>sid</key>
+				<integer>0</integer>
+				<key>words_num</key>
+				<integer>258</integer>
 			</dict>
 		</array>
 		<key>sid</key>

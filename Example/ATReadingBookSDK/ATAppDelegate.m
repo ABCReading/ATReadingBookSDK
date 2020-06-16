@@ -8,7 +8,7 @@
 
 #import "ATAppDelegate.h"
 #import <ABCtimeReadingBookSDK/ABCtimeReadingBookSDK.h>
-#import <FLEX/FLEX.h>
+//#import <FLEX/FLEX.h>
 
 @implementation ATAppDelegate
 - (void)showFlex {
@@ -23,11 +23,10 @@
 //    // 设定服务器类型;
 //    [ATReadingBookManager setServerType:EATServerTypeProduction];
     
-    [[FLEXManager sharedManager] setNetworkDebuggingEnabled:YES];
-    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showFlex)];
-    gesture.numberOfTapsRequired = 3;
+//    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showFlex)];
+//    gesture.numberOfTapsRequired = 3;
 //    [self test];
-    [self.window addGestureRecognizer:gesture];
+//    [self.window addGestureRecognizer:gesture];
     return YES;
 }
 
